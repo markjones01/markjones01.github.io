@@ -385,39 +385,30 @@ nav ul a:hover {
 }
 
 .profile-placeholder {
-
     width: 105px;
-
     height: 105px;
-
     border-radius: 50%;
+    margin: auto auto 22px;
 
-    margin:
-        auto
-        auto
-        22px;
+    overflow: hidden;
 
-    background:
-        linear-gradient(
-            135deg,
-            #4f7cff,
-            #8aa8ff
-        );
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-
-    color: white;
-
-    font-size: 32px;
-
-    font-weight: 800;
+    background: linear-gradient(
+        135deg,
+        #4f7cff,
+        #8aa8ff
+    );
 
     box-shadow:
         0 15px 35px rgba(79,124,255,0.3);
+}
+
+.profile-placeholder img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
 }
 
 .hero-card h3 {
@@ -1417,9 +1408,7 @@ footer {
 <div class="hero-card">
 
     <div class="profile-placeholder">
-
-        MJ
-
+        <img src="IMG_0057.jpeg" alt="Mark Jones Dueñas">
     </div>
 
 
